@@ -1,0 +1,72 @@
+# ---------------------------------------------------------------------------
+# Môi trường / công cụ
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Thư mục của agent (không publish)
+# ---------------------------------------------------------------------------
+.claude/
+.deepeval/
+.opencode/
+skills/
+
+# ---------------------------------------------------------------------------
+# Scratch & output sinh ra khi phân tích / chạy solve
+# ---------------------------------------------------------------------------
+_scratch/
+work/
+*.pkl
+*.log
+*.tsv
+
+# ---------------------------------------------------------------------------
+# Artifact của challenge — KHÔNG phát hành lại
+# (file challenge tải từ kho Flare-On, mật khẩu "flare"; xem README mục "Môi trường")
+# ---------------------------------------------------------------------------
+*.7z
+
+1/flarecaptcha.html
+
+2/GhostStream.exe_
+2/GhostStream.wim
+2/Partner_CTF.exe_
+2/PolyjuicePotion.txt
+2/PolyjuicePotion.txt.LordVoldemort
+
+3/flareon13.doc
+3/disk.bin
+3/disk.iso
+3/obj5.bin
+3/obj8.jb2
+3/udf_out
+
+4/ToxicMiner.exe
+4/img.bin
+4/tm.asm
+4/strings.txt
+4/brute
+4/brute_out.txt
+
+5/catthief/catthief.exe
+5/catthief/capture.pcapng
+5/catthief/out/
+
+6/ThreatInvaders/
+
+7/FlareCalc.exe
+7/laneA/
+
+8/extension.zip
+8/ext/
+
+9/neon_outrun

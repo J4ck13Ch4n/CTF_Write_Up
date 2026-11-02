@@ -1,0 +1,23 @@
+# Chuan hoa line-ending + phan biet text/binary
+* text=auto eol=lf
+
+*.md   text diff=markdown
+*.py   text diff=python
+*.cjs  text
+*.js   text
+*.sh   text eol=lf
+*.c    text diff=c
+*.txt  text
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pdf  binary
+*.7z   binary
+*.exe  binary
+*.wasm binary
+*.bin  binary
+*.iso  binary
+*.wim  binary
+*.pcapng binary
+*.doc  binary
